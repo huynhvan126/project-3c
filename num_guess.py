@@ -17,5 +17,5 @@ def num_guess():
             elif guess < target:
                 print("Too low - try again:")
             else:
-                print(f"You guessed it in {tries} tries.")
+                print(f"You guessed it in {tries} {'try' if tries == 1 else 'tries'}.")
 num_guess()
