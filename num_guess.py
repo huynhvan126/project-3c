@@ -4,7 +4,8 @@
 # Description: try to guess for an integer
 import random
 def num_guess():
-        target = int(input("Enter the integer for the player to guess."))
+        print("Enter the integer for the player to guess.")
+        target = int(input())
         guess = None
         tries = 0
         print("Enter your guess.")
